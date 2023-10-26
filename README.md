@@ -1,6 +1,6 @@
 # BDExerc021
-##SQLWork
-###Considere o diagrama abaixo:
+## SQLWork
+### Considere o diagrama abaixo:
 
 ![image](https://github.com/Matheus-Franca-x/BDExerc021/assets/99504777/e6c12127-4eca-4945-831e-1b63564bfb43)
 
