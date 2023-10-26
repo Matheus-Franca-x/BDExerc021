@@ -20,8 +20,8 @@
 - A coluna username da tabela users deve ter restrição de unicidade.
 
 ### Modificações:
--Modificar a coluna username da tabela Users para varchar(10)
--Modificar a coluna password da tabela Users para varchar(8)
+- Modificar a coluna username da tabela Users para varchar(10)
+- Modificar a coluna password da tabela Users para varchar(8)
 
 ### Inserir os dados abaixo:
 #### users:
@@ -61,17 +61,17 @@
 ![image](https://github.com/Matheus-Franca-x/BDExerc021/assets/99504777/7e0d7ff0-ad86-4f1c-b368-bf4e62943652)
 
 ### Restrições:
--Ano de filme deve ser menor ou igual a 2021.
--Data de fabricação de DVD deve ser menor do que hoje.
--Número do endereço de Cliente deve ser positivo.
--CEP do endereço de Cliente deve ter, especificamente, 8 caracteres.
--Data de locação de Locação, por padrão, deve ser hoje.
--Data de devolução de Locação, deve ser maior que a data de locação.
--Valor de Locação deve ser positivo.
+- Ano de filme deve ser menor ou igual a 2021.
+- Data de fabricação de DVD deve ser menor do que hoje.
+- Número do endereço de Cliente deve ser positivo.
+- CEP do endereço de Cliente deve ter, especificamente, 8 caracteres.
+- Data de locação de Locação, por padrão, deve ser hoje.
+- Data de devolução de Locação, deve ser maior que a data de locação.
+- Valor de Locação deve ser positivo.
 
 ### Esquema:
--A entidade estrela deveria ter o nome real da estrela, com 50 caracteres
--Verificando um dos nomes de filme, percebeu-se que o nome do filme deveria ser um atributo com 80 caracteres
+- A entidade estrela deveria ter o nome real da estrela, com 50 caracteres
+- Verificando um dos nomes de filme, percebeu-se que o nome do filme deveria ser um atributo com 80 caracteres
 
 ### Considere os dados:
 #### filme:
@@ -137,12 +137,12 @@
 |  10008  |         5501         | 2021-02-24   | 2021-02-26      |  3.50 |
 
 ### Operações com dados:
--Os CEP dos clientes 5503 e 5504 são 08411150 e 02918190 respectivamente
--A locação de 2021-02-18 do cliente 5502 teve o valor de 3.25 para cada DVD alugado
--A locação de 2021-02-24 do cliente 5501 teve o valor de 3.10 para cada DVD alugado
--O DVD 10005 foi fabricado em 2019-07-14
--O nome real de Miles Teller é Miles Alexander Teller
--O filme Sing não tem DVD cadastrado e deve ser excluído
+- Os CEP dos clientes 5503 e 5504 são 08411150 e 02918190 respectivamente
+- A locação de 2021-02-18 do cliente 5502 teve o valor de 3.25 para cada DVD alugado
+- A locação de 2021-02-24 do cliente 5501 teve o valor de 3.10 para cada DVD alugado
+- O DVD 10005 foi fabricado em 2019-07-14
+- O nome real de Miles Teller é Miles Alexander Teller
+- O filme Sing não tem DVD cadastrado e deve ser excluído
 
 ### Consultar:
 1) Fazer um select que retorne os nomes dos filmes de 2014
