@@ -89,7 +89,8 @@
 |  9905  | Jennifer Garner | Jennifer Anne Garner |
 
 #### filme_estrela:
-|filme_estrela|
+| filme_estrela |
+|---------------|
 | FilmeId | EstrelaId |
 |---------|-----------|
 |  1002   |   9901    |
