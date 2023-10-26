@@ -14,11 +14,12 @@ GO
 CREATE TABLE users
 (
 	id_users			INT IDENTITY(1, 1)	NOT NULL,
-	name				VARCHAR(45)		NOT NULL UNIQUE,
+	name				VARCHAR(45)		NOT NULL,
 	username			VARCHAR(45)		NOT NULL,
 	password			VARCHAR(45)		NOT NULL DEFAULT('123mudar'),
 	email				VARCHAR(45)		NOT NULL
-	PRIMARY KEY (id_users)
+	PRIMARY KEY (id_users),
+	CONSTRAINT UQ_username UNIQUE (username)
 )
 GO
 CREATE TABLE users_has_projects
@@ -31,7 +32,13 @@ CREATE TABLE users_has_projects
 )
 GO
 ALTER TABLE users 
-ALTER COLUMN username VARCHAR(10)
+DROP CONSTRAINT UQ_username
+GO
+ALTER TABLE users 
+ALTER COLUMN username VARCHAR(10) NOT NULL
+GO
+ALTER TABLE users 
+ADD CONSTRAINT UQ_username UNIQUE (username)
 GO
 ALTER TABLE users 
 ALTER COLUMN password VARCHAR(8) NOT NULL
