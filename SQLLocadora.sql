@@ -153,39 +153,39 @@ WHERE nome = 'Miles Teller'
 DELETE filme
 WHERE titulo = 'Sing'
 
-
+--1)
 SELECT titulo
 FROM filme 
 WHERE ano = 2014
-
+--2)
 SELECT id_filme, ano 
 FROM filme
 WHERE titulo = 'Birdman'
-
+--3)
 SELECT id_filme, ano
 FROM filme
 WHERE titulo LIKE '%plash'
-
+--4)
 SELECT id_estrela, nome, nome_real
 FROM estrela
 WHERE nome LIKE 'Steve%'
-
+--5)
 SELECT id_filme, CONVERT(VARCHAR(10), data_fabr, 103) AS fab
 FROM dvd
 WHERE data_fabr > '2020-01-01' 
-
+--6)
 SELECT num_dvd, data_locacao, data_devolucao, valor, valor + 2 AS valor_multa
 FROM locacao 
 WHERE num_cad_cliente = 5505
-
+--7)
 SELECT logradouro_end, num_end, cep_end 
 FROM cliente 
 WHERE nome LIKE 'Matilde Luz'
-
+--8)
 SELECT nome_real 
 FROM estrela
 WHERE nome LIKE 'Michael Keaton'
-
+--9)
 SELECT 
 	num_cad_cliente, 
 	nome, 
