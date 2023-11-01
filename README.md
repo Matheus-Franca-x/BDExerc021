@@ -1,9 +1,10 @@
 # BDExerc021
 ## Links:
+---
 [para SQLWork.sql](#sqlworksql)
-
+---
 [para SQLLocadora.sql](#sqllocadorasql)
-
+---
 ## SQLWork.sql
 ### Considere o diagrama abaixo:
 
