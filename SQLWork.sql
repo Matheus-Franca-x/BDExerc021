@@ -60,7 +60,7 @@ INSERT INTO projects (name, description, date_proj)
 VALUES
 ('Re-folha', 'Refatoração das Folhas', '2014-09-05'),
 ('Manutenção PC´s', 'Manutenção PC´s', '2014-09-06'),
-('Re-folha', NULL, '2014-09-07')
+('Auditoria', NULL, '2014-09-07')
 GO
 INSERT INTO users_has_projects (id_users, id_projects)
 VALUES
